@@ -1,0 +1,14 @@
+Schubert, Carl, et al. “Innovations in 3D printing: a 3D overview from optics to organs.” British Journal of Ophthalmology, BMJ Publishing Group Ltd, 1 Feb. 2014, bjo.bmj.com/content/98/2/159.short#article-bottom.
+http://bjo.bmj.com/content/bjophthalmol/98/2/159.full.pdf
+
+Practical 3D Printers: the Science and Art of 3D Printing. APress, 2012.
+https://books.google.com/books?hl=en&lr=&id=R4qxOQZV9T0C&oi=fnd&pg=PR3&dq=3d+printers&ots=pBCiK-RW-z&sig=zvA0oZ7uzW6C9bZZV3uFsxNkd3U#v=onepage&q=3d%20printers&f=false
+
+Canessa, Enrique, et al. Low-Cost 3D Printing for Science, Education & Sustainable Development. ICTP—The Abdus Salam International Centre for Theoretical Physics, 2013.
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.410.790&rep=rep1&type=pdf#page=13
+
+Pearce, Joshua M. “Building Research Equipment with Free, Open-Source Hardware.” Science, 2012, pp. 1303–1304.
+http://preview.trendinafrica.org/wp-content/uploads/2013/11/Science-2012-Pearce-1303-4.pdf
+
+Gebhardt, Andreas. Understanding additive manufacturing: Rapid Prototyping - Rapid Tooling - Rapid Manufacturing. Hanser, 2012.
+https://pdfs.semanticscholar.org/5f70/52b1d86c45d0f6a90a3b8211db379dcd0a5a.pdf
