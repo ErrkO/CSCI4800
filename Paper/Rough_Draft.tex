@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+%\title{%
+%    3D Printing technologies \\
+%%    \large An Abstract
+%}
+%\author{Eric Oliver}
+%\date{\today}
+
+%\setcounter{chapter}{0}
+
+\usepackage{listings}
+\usepackage{times}
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{setspace}
+\doublespacing
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
+
+\lstset{style=mystyle}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{} 
+\chead{} 
+\rhead{Oliver \thepage} 
+\lfoot{} 
+\cfoot{} 
+\rfoot{} 
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt} 
+%To make sure we actually have header 0.5in away from top edge
+%12pt is one-sixth of an inch. Subtract this from 0.5in to get headsep value
+\setlength\headsep{0.333in}
+
+%
+%Works cited environment
+%(to start, use \begin{workscited...}, each entry preceded by \bibent)
+% - from Ryan Alcock's MLA style file
+%
+\newcommand{\bibent}{\noindent \hangindent 40pt}
+\newenvironment{workscited}{\newpage \begin{center} Works Cited \end{center}}{\newpage }
+
+\begin{document}
+\begin{flushleft}
+
+Eric Oliver \\
+Dr. Li \\
+CSCI 4800-12 \\
+\today
+
+\begin{center}
+\large 3D Printing Technologies
+\end{center}
+
+\setlength{\parindent}{0.5in}
+
+%%%%%%%%%%%%%
+%   Body    %
+%%%%%%%%%%%%%
+
+% 3dp = 3D print
+
+3D printing has taken off in the past ten years. Originally developed in the 1980's; it took years for 3D printers to be commercially viable and time efficient. 3D printers work on the basis of laying layers of material on top of each other to create a 3D object. In essence it is a traditional printer with the addition of a third access so it can continue to print on top of the old print. When put that way 3D printers sound like a quick means of manufacturing, and in a way they are a fast way to prototype a new design, but they are still tremendously slow. The most popular design of \#3dpers are four stepper motors: one for the x-axis, another for the y-axis, and two for the z-axis. The z-axis needs two motors because it must move evenly, or the print may fail. 
+
+This method of printing is called fused deposition modeling, or FDM. FDM printing uses molten material layered on top of each other to produce three dimensional objects. This allows the printer to be cheap and relativly accurate. There are other methods such as: Digital Light Processing(DLP), Stereolithography(SLA), Selective Laser Sintering (SLS), Selective laser melting (SLM), Electronic Beam Melting (EBM), Laminated object manufacturing (LOM). FDM is the most popular method for commercialized \#3dping because it does not require many specialized componentes to operate; just four stepper motors and an exteruder for a basic \#3dper. FDM printing is also more viable for businesses to mass produce test parts becuase they can afford the more expensive printers that print in stronger materials for testing parts.
+
+SLA and DLP 
+
+SLA printing is also ``the oldest [method] in history of 3D printing it’s still being used nowadays'' (``Types of 3D Printers''). FDM printing was patented by Charles Hull in 1986. This was the first instance of \#3dp technology in history.
+
+The basic steps that a \#3dper takes is a model must be designed or found, the model must be turned into g-code, and then the g-code must be sent to the printer. Most models are designed with 3D-CAD, computer aided design, software or other 3d modeling software. The distinction between the two types of programs is one is based on more scientific and measured approaches and the other is more artistic in its implementation. Next is turning the model into g-code, or the language of telling the stepper motors when, where, and how long to move. Turning the the model into g-code is done by the slicer, which turns the model into toolpath layers. Finally it is then sent to the printer for printing.
+
+3D printing has many uses beyond hobbyist proects, and quick prototyping. It can also be used in many other fields, such as the medical field. 3D printing is a great way to test new prosthetics or even implants. With the advancement of materials and print quality, surgeons have printed braces and other implants for complicated surguries. 
+
+\begin{workscited}
+
+\bibent
+Schubert, Carl, et al. \textit{Innovations in 3D printing: a 3D overview from optics to organs.} British Journal of Ophthalmology, BMJ Publishing Group Ltd, 1 Feb. 2014, bjo.bmj.com/content/98/2/159.short\#article-bottom.
+
+\bibent
+Evans, Brian. \textit{Practical 3D Printers: the Science and Art of 3D Printing.} APress, 2012.
+
+\bibent
+Canessa, Enrique, et al. \textit{Low-Cost 3D Printing for Science, Education \& Sustainable Development.} ICTP—The Abdus Salam International Centre for Theoretical Physics, 2013.
+
+\bibent
+Pearce, Joshua M. \textit{Building Research Equipment with Free, Open-Source Hardware.} Science, 2012, pp. 1303–1304.
+
+\bibent
+Gebhardt, Andreas. \textit{Understanding additive manufacturing: Rapid Prototyping - Rapid Tooling - Rapid Manufacturing.} Hanser, 2012.
+
+\bibent
+``Types of 3D Printers or 3D Printing Technologies Overview.'' \textit{3D Printing from Scratch}, 2 Feb. 2016, 3dprintingfromscratch.com/common/types-of-3d-printers-or-3d-printing-technologies-overview/.
+
+\end{workscited}
+
+\end{flushleft}
+\end{document}
